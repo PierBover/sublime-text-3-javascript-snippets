@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+readFileSync(${1:filePath}, ${2:'utf-8'});
+]]></content>
+	<tabTrigger>readFileSync</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>fs.readFileSync()</description>
+</snippet>

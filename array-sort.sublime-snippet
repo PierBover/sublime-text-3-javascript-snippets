@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+sort((a, b) => {
+	if (a.${1:date} > b.$1) return 1;
+	if (a.$1 < b.$1) return -1;
+	return 0;
+});
+]]></content>
+	<tabTrigger>sort</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>array.sort()</description>
+</snippet>

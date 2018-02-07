@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+find((${1:item}) => $1.${2:property} === ${3:value});
+]]></content>
+	<tabTrigger>find</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>array.find()</description>
+</snippet>

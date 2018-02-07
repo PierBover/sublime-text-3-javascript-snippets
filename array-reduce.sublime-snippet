@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+reduce((${1:accumulatedValue}, ${2:item}) => $1 + $2${3:.${4:property}}, ${5:0});
+]]></content>
+	<tabTrigger>reduce</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>array.reduce()</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+catch((${1:error}) => {
+	${2:console.log(error.toString());}$0
+});
+]]></content>
+	<tabTrigger>catch</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>.catch()</description>
+</snippet>

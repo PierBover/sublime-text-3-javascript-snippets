@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+splice(${1:index}, ${2:count}${3:, ${4:newItem}});
+]]></content>
+	<tabTrigger>splice</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>array.splice()</description>
+</snippet>

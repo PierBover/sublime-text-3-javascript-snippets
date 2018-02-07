@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+writeFileSync(${1:filePath}, ${2:data}, ${3:'utf-8'});
+]]></content>
+	<tabTrigger>writeFileSync</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>fs.writeFileSync()</description>
+</snippet>

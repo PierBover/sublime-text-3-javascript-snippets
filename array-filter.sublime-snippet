@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+filter((${1:item}) => $1.${2:property} === ${2:value});
+]]></content>
+	<tabTrigger>filter</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>array.filter()</description>
+</snippet>

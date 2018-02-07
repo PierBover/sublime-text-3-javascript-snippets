@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Promise.all([${1:promises}]).then((${2:values}) => {
+	${3:console.log(values);}
+});
+]]></content>
+	<tabTrigger>all</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>Promise.all()</description>
+</snippet>

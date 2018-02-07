@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+findIndex((${1:item}) => $1.${2:property} === ${3:value});
+]]></content>
+	<tabTrigger>findIndex</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>array.findIndex()</description>
+</snippet>

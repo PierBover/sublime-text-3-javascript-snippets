@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(${1:something}) => {
+	${2}
+}
+]]></content>
+	<tabTrigger>af</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>Arrow Function</description>
+</snippet>

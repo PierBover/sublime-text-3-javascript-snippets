@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+removeEventListener("${1:mousedown}",$2);$0
+]]></content>
+	<tabTrigger>removeEventListener</tabTrigger>
+	<scope>source.js, source.jsx, source.ts, source.vue</scope>
+	<description>removeEventListener()</description>
+</snippet>
